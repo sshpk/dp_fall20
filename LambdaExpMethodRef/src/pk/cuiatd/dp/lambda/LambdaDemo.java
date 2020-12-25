@@ -41,7 +41,7 @@ public class LambdaDemo {
 		Calculator2  calc2 = x->x*x;
 		System.out.println(calc2.square(3));
 
-		int a = 5;
+		int a = 15;
 		ITest test =() -> a;
 		System.out.println(test.method());
 
