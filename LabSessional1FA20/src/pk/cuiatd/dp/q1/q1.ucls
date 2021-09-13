@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="pk.cuiatd.dp.q1.CakeComponent" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/CakeComponent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="134" x="453" y="311"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="pk.cuiatd.dp.q1.Demo" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/Demo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="271" y="118"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="pk.cuiatd.dp.q1.NameCard" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/NameCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="162" x="627" y="311"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="pk.cuiatd.dp.q1.ButterCreamFrosting" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/ButterCreamFrosting.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="211" x="829" y="311"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="pk.cuiatd.dp.q1.StrawberryCake" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/StrawberryCake.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="134" x="424" y="118"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="pk.cuiatd.dp.q1.BaseDecoration" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/BaseDecoration.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="189" x="772" y="118"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="pk.cuiatd.dp.q1.CoffeeCake" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/CoffeeCake.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="134" x="598" y="118"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="pk.cuiatd.dp.q1.WhippedCreamFrosting" project="LabSessional1FA20" 
+    file="/LabSessional1FA20/src/pk/cuiatd/dp/q1/WhippedCreamFrosting.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="224" x="1080" y="311"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="9">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="14">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="15" name="component"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="17">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,11 +1,12 @@
 package pk.edu.cui.account;
 
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Account {
 	private String title;
 	private int balance;
-	private Vector<Transaction> history = new Vector<Transaction>();
+	private List<Transaction> history = new ArrayList<Transaction>();
 	
 	public Account(String title) {
 		this.title = title;
