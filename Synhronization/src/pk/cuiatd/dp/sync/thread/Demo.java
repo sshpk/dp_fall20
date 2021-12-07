@@ -6,8 +6,10 @@ public class Demo {
 		System.out.println("Start of main thread");
 		Thread ping = new Ping();
 		Thread pong = new Pong();
-		ping.run();   // wrong
-		pong.run();   // wrong
+		//ping.run();    wrong
+		ping.start();
+		//pong.run();   wrong
+		pong.start();
 		System.out.println("End of main thread");
 
 	}
