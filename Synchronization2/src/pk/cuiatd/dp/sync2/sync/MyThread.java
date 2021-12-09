@@ -2,18 +2,18 @@ package pk.cuiatd.dp.sync2.sync;
 
 public class MyThread extends Thread {
 	private String threadName;
-	private Printer  print;
+	private Printer  printer;
 
-	MyThread(String name,  Printer print) {
+	MyThread(String name,  Printer printer) {
 		super(name);
 		threadName = name;
-		this.print = print;
+		this.printer = printer;
 	}
 
 	public void run() {
 		System.out.println(threadName+" starts printing a document");
-		synchronized(print) {
-			print.print();
+		synchronized(printer) {
+			printer.print();
 		}
 		System.out.println(threadName + " is exiting.");
 	}
