@@ -5,7 +5,6 @@ public class Chat {
 
 	public synchronized void question(String msg) {
 		if (flag) {
-
 			try {
 				wait();
 			} catch (InterruptedException e) {
@@ -20,7 +19,6 @@ public class Chat {
 	public synchronized void answer(String msg) {
 
 		if (!flag) {
-
 			try {
 				wait();
 			} catch (InterruptedException e) {
