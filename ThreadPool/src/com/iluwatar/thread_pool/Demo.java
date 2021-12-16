@@ -29,7 +29,8 @@ public class Demo {
 		// tasks. If additional tasks are submitted when all threads are active, they will wait
 		// in the queue until a thread is available.
 
-		ExecutorService executorService = Executors.newFixedThreadPool(3);  
+		ExecutorService executorService = 
+				Executors.newFixedThreadPool(3);  
 		for(Task t: tasks){
 			executorService.execute(new Worker(t));
 		}
